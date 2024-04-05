@@ -161,12 +161,41 @@
 /* shopping section */
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color:bisque;
 }
 .box{
-    border: 2px solid black;
     height: 400px;
     width: 23%;
     background-color: white;
+    padding: 20px 0px 15px;
+    color: #0f1111;
+}
+.box-content{
+    margin: 1rem;
+}
+.box1{
+    margin-top: 10px;
+    background-image: url(./images/amz_b1.jpg);
+    background-size: cover;
+    height: 200px;
+}
+.box2{
+    margin-top: 10px;
+    background-image: url(./images/ams_b2.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.box3{
+    margin-top: 10px;
+    background-image: url(./images/ams_b3.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.box4{
+    margin-top: 10px;
+    background-image: url(./images/ams_b5.jpg);
+    background-size: cover;
+    height: 300px;
 }
