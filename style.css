@@ -31,7 +31,7 @@
     transition: all;
 }
 .border:hover{
-    border: 1.5px solid white;
+    border: 1px solid white;
 }
 /* box2(address)*/
 .add{
@@ -215,4 +215,64 @@ footer{
 }
 .foot-panel1:hover{
     background-color: #405268;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+}
+ul{
+    margin-top: 40px;
+}
+ul a{
+    display: block;
+    color: #DDDDDD;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+ul a:hover{
+    text-decoration: underline solid white;
+}
+
+.foot-panel3{
+    height: 70px;
+    background-color: #222f3d;
+    color: white;
+    border-top: #DDDDDD 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    height: 50px;
+    width: 100px;
+    margin: 1px;
+    padding: 0px 8px 0 6px;
+}
+.flogo{
+    height: 50px;
+    width: 100%;
+    background-image: url('./images/amazon_footer.png');
+    background-size: cover;
+}
+
+.foot-panel4{
+    height: 80px;
+    background-color: #131A22;
+    color: #DDDDDD;
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 25px;
+}
+.fpages a{
+    padding: 5px;
+}
+.copyright{
+    padding-top: 5px;
+}
+.fpages a:hover{
+    text-decoration: underline solid white;
 }
